@@ -1,18 +1,33 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
+using DG.Tweening;
 
+[ExecuteInEditMode]
 public class MyAsync01 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    async Task MySequence()
     {
-        
+        await MyTask01();
+        //await MyTween01();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    void OnEnable()
     {
-        
+        _ = MySequence();
+    }
+
+
+    Tween MyTween01()
+    {
+        return transform.DOScale(4, 2);
+    }
+
+    private async Task MyTask01()
+    {
+        await Task.Delay(TimeSpan.FromSeconds(2));
     }
 }

@@ -1,13 +1,27 @@
 ﻿<Properties StartupConfiguration="{635A5595-8990-C022-560E-C087986B6284}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MyAsync01.cs">
     <Files>
-      <File FileName="Assets/MyAsync01.cs" Line="1" Column="1" />
+      <File FileName="Assets/MyAsync01.cs" Line="17" Column="23" />
+      <File FileName="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
+      <File FileName="Assets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" />
+      <File FileName="Assets/_Project/Scripts/MyAsync01.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AsyncPlayground" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="_Project" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="Demigiant" expanded="True">
+                <Node name="DOTween" expanded="True" />
+              </Node>
+              <Node name="TutorialInfo" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Editor" expanded="True" />
+                </Node>
+              </Node>
               <Node name="MyAsync01.cs" selected="True" />
             </Node>
           </Node>
@@ -17,7 +31,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="18c48a32-a74a-419c-9d4f-d5e356e45e87" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d393911e-ec36-4e8c-8186-8e4bd6fc1d67" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
