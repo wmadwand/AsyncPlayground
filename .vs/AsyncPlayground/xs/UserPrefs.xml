@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{635A5595-8990-C022-560E-C087986B6284}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MyAsync01.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Project/Scripts/MyAsync01.cs">
     <Files>
-      <File FileName="Assets/MyAsync01.cs" Line="17" Column="23" />
-      <File FileName="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
+      <File FileName="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" Line="66" Column="1" />
       <File FileName="Assets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" />
-      <File FileName="Assets/_Project/Scripts/MyAsync01.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Project/Scripts/MyAsync01.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +11,9 @@
           <Node name="AsyncPlayground" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="_Project" expanded="True">
-                <Node name="Scripts" expanded="True" />
+                <Node name="Scripts" expanded="True">
+                  <Node name="MyAsync01.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="Demigiant" expanded="True">
                 <Node name="DOTween" expanded="True" />
@@ -22,7 +23,6 @@
                   <Node name="Editor" expanded="True" />
                 </Node>
               </Node>
-              <Node name="MyAsync01.cs" selected="True" />
             </Node>
           </Node>
         </State>

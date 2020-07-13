@@ -8,6 +8,8 @@ using DG.Tweening;
 [ExecuteInEditMode]
 public class MyAsync01 : MonoBehaviour
 {
+    [SerializeField] private int _poolSize;
+
     async Task MySequence()
     {
         await MyTask01();
